@@ -8,8 +8,7 @@
   color: rgb(138, 90, 90);
   padding: 12px;
   font-size: 34px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 img {
@@ -21,12 +20,14 @@ img {
   width: 100%;
   position: relative;
 }
+
 .image h2 {
   color: black;
   position: absolute;
   top: 50%;
   left: 65%;
 }
+
 .image h6 {
   color: black;
   position: absolute;
@@ -61,6 +62,7 @@ img {
   justify-content: center;
   color: black;
 }
+
 .text h5 {
   text-align: center;
   display: flex;
@@ -79,5 +81,6 @@ body {
     flex-direction: row;
   }
 }
+
 
 /*# sourceMappingURL=styles.css.map */

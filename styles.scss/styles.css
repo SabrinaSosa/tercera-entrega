@@ -7,9 +7,8 @@
 .title {
   color: rgb(138, 90, 90);
   padding: 12px;
-  font-size: 34px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 52px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 img {
@@ -17,20 +16,26 @@ img {
   padding: 20px 0;
 }
 
-.image {
+/*.image {
   width: 100%;
   position: relative;
-}
-.image h2 {
+  h2 {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+  }
+  h6 {
+    color: black;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+  }
+} */
+.h2 {
   color: black;
   position: absolute;
   top: 50%;
-  left: 65%;
-}
-.image h6 {
-  color: black;
-  position: absolute;
-  top: 70%;
   left: 65%;
 }
 
@@ -78,6 +83,10 @@ body {
   body {
     flex-direction: row;
   }
+}
+.container-fluid {
+  background-color: rosybrown;
+  padding: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
